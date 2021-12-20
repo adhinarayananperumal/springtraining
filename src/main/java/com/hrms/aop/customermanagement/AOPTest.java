@@ -22,6 +22,7 @@ public class AOPTest {
 			CustomerManager customerManager = (CustomerManager) appContext.getBean("customerManagement");
 			String status = customerManager.saveCustomer(101, "ravi");
 			System.out.println("end....");
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

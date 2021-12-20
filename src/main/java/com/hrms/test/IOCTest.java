@@ -10,7 +10,7 @@ import com.hrms.pojo.EmployeePojo;
 import com.hrms.service.EmployeeService;
 
 @Configuration
-@ComponentScan(basePackages = "com.hrms.service,com.hrms.proxy.dao")
+@ComponentScan(basePackages = "com.hrms.service,com.hrms.dao")
 public class IOCTest {
 
 	public static void main(String[] args) {
@@ -29,7 +29,6 @@ public class IOCTest {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
 
 }
